@@ -1,0 +1,99 @@
+body {
+    font-family: Montserrat;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+.back-img {
+    position: absolute;
+    z-index: -1;
+    width: 145%;
+}
+
+.fixed p {
+    font-family: alegreya;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10% 0;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.fixed{
+    position: fixed;
+    background-color: #c4a484;
+    width: 22%;
+    z-index: -1;
+    padding: 10% 1% 25%;
+}
+
+.fixed a{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.fixed img{
+    width: 50%;
+    margin: 5% 0 9% 25%;
+    
+}
+.fixed h1{
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+}
+h2{
+    font-family: montserrat;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about-us {
+    font-family: alegreya;
+    text-align: center;
+    padding: 8% 10% 4% 30%;
+    font-size: 1.5rem;
+ }
+
+.about-us h2 {
+    margin-bottom: 4%;
+}
+
+.articles{
+    margin-left: 19%;
+    
+}
+.articles div{
+    border-radius: 10px;
+    background-color: #5f4336;
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    margin: 5% auto;
+    padding-top: 4%;
+}
+.articles a{
+     color: white;
+     text-decoration: none;
+     font-size: 1.5rem;
+     font-family: alegreya;
+}
+ .articles div:hover{
+    border: solid 4px #c4a484;
+}
+
+.uk-navbar-left {
+    background-color: black;
+}
